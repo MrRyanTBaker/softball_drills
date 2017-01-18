@@ -1,8 +1,11 @@
-.navbar {border: blue;}
+.navbar {width: auto;
+    background: blue;
+    text-align: center;
+}
 
 
-.sidebar {height: 5000px;
-width: 100px;
+.sidebar {height: auto;
+width: 125px;
 float: left;
 background: yellow;
 text-align: center;
@@ -13,7 +16,10 @@ text-align: center;
     color: red;
 }
 
-button {background-color: white;}
+button {background-color: white;
+    width: 155px;
+    height: 45px;
+}
 
 button:hover {color: blue;}
 
