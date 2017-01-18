@@ -1,5 +1,27 @@
+.navbar {border: blue;}
+
+
+.sidebar {height: 5000px;
+width: 100px;
+float: left;
+background: yellow;
+text-align: center;
+}
+
+
+.center {text-align: center;
+    color: red;
+}
+
+button {background-color: white;}
+
+button:hover {color: blue;}
+
+h1 {text-indent: 1em;}
+
+
 p {text-indent: 2em;
-text-align: left;
+text-align: center;
 font-family: serif; 
 color: black;
 font-size: 1em;
