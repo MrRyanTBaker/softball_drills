@@ -1,24 +1,15 @@
 .navbar {width: auto;
-    background: blue;
-    text-align: center;
+   text-align: center;
 }
-
-
-.sidebar {height: auto;
-width: 125px;
-float: left;
-background: yellow;
-text-align: center;
-}
-
 
 .center {text-align: center;
-    color: red;
+    color: black;
+    font-family: serif;
 }
 
 button {background-color: white;
-    width: 155px;
-    height: 45px;
+    width: 45%;
+    height: 50px;
 }
 
 button:hover {color: blue;}
