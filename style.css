@@ -14,6 +14,9 @@ button {background-color: white;
 
 button:hover {color: blue;}
 
+.btnimg {width: 45%;
+height:50px;}
+
 h1 {text-indent: 1em;}
 
 
