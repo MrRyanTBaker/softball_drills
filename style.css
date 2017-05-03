@@ -1,5 +1,9 @@
-.selections {width: auto;
-   text-align: center;
+img {height: 400px;
+width: 475px;
+}
+
+div {margin: 2px;
+    
 }
 
 .center {text-align: center;
@@ -7,18 +11,18 @@
     font-family: serif;
 }
 
-button {background-color: white;
-    width: 45%;
-    height: 50px;
+.button {display: inline-block;
+	margin-left: 5px;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	border: 2px solid black;
 }
 
-button:hover {color: blue;}
-
-.btnimg {width: 45%;
-height:50px;}
+.button:hover {border: 2px dashed yellow;
+}
 
 h1 {text-indent: 1em;}
-
 
 p {text-indent: 2em;
 text-align: left;
