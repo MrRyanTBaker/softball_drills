@@ -6,6 +6,13 @@ div {margin: 2px;
     
 }
 
+.home_screen {background: url("images/grass1.jpg") no-repeat center fixed;
+background-size: cover;
+}
+
+#welcome {background: white;
+}
+
 .center {text-align: center;
     color: black;
     font-family: serif;
@@ -13,8 +20,8 @@ div {margin: 2px;
 
 .button {display: inline-block;
 	margin-left: 5px;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 	border: 2px solid black;
 }
