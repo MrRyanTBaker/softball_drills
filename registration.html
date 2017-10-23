@@ -15,20 +15,23 @@
     
 </div>
 <div>
-    <form>                                                                              <!--need link to where data will be stored and retrieved-->
+    <form action="server/page information" method="POST">                                                                             <!--need link to where data will be stored and retrieved-->
         <fieldset>
             <legend>Personal Information</legend>
         First Name:</br> 
-            <input type="text" name="firstname" value="" placeholder="Type Here"/></br>
+            <input type="text" name="firstname" value="" placeholder="Type Here" required="required" /></br>
         Last Name: </br> 
             <input type="text" name="lastname" value="" placeholder="Type Here"/></br>
         Mailing Address: </br>
             <input type="text" name="address" value="" placeholder="Street"/></br>
             <input type="text" name="city" value="" placeholder="City"/>
             <input type="text" name="state" value="" placeholder="State"/>
-            <input type="text" name="zip" value="" placeholder="Zipcode"/></br>         
+            <input type="text" name="zip" value="" placeholder="Zip Code"/></br>         
         Email Address: </br>
             <input type="email" name="email" value="" placeholder="Name@Provider"/> </br>
+        Age: </br>
+            <input type="number" name="age" min="1" max="99" value="" placeholder="Current Age"/></br>
+            
         Softball Involvement: </br>
             <select>
                 <option value="youthCoach">Youth Softball Coach</option>
@@ -44,7 +47,7 @@
                 <option value="Parent">Parent</option>
                 <option value="other">Other</option>
             </select> </br></br>
-            <input type="submit" value="Submit Form"/>
+            <input type="submit" value="Submit Form"/>                           
             
         </fieldset>    
     </form>
